@@ -10,5 +10,17 @@
         "episode": "RUBENS BARRICHELLO = Flow #339",
         "videoId": "4KDGTdiOV4I",
         "categories": [ "sport", "race" ]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "Lucas = Flow #339",
+        "videoId": "000",
+        "categories": [ "teste", "test" ]
+    },
+    {
+        "podcastName": "Venus",
+        "episode": "teste Venus = Venus #339",
+        "videoId": "3824",
+        "categories": [ "testeVenus", "testeVenus" ]
     }
 ]
