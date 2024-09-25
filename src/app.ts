@@ -7,7 +7,7 @@ import { HttpMethod } from "./utils/http_methos";
     
 export const app = async (req : http.IncomingMessage , res : http.ServerResponse) => {
     
-    const [baseUrl, queryString] = req.url?.split("?") ?? ["", ""]
+    const baseUrl = req.url?.split("?")[0] ?? [""]
     
     
     if(req.method === HttpMethod.GET && baseUrl === Route.LIST){
